@@ -22,6 +22,7 @@ var onDefault=function(req, res){
                     " <li>Workshops</li>"+
                     " <li>Online Course</li>"+
                     " <li>Corporate Training headquarter at LONDON</li>"+
+             " <li>Quit</li>"+
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
